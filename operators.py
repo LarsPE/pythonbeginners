@@ -1,11 +1,31 @@
 # operators.py
 
-print(8 / 2)
+# modulus
 print(10 % 3)
 
-print(10-6)
+# exponentiation
+print(10**2)
 
-print("something to check git...")
-print("added some changes to one file")
-print("..another change made..")
-print("made a change after push to github")
+# floor division
+print(10//3)
+
+
+x = 10
+y = 20
+
+print(x == y)
+print(x < y)
+print(x <= y)
+print(x != y)
+
+
+# user input
+name = input("your name: ")
+print(f"Hello {name}")
+
+age = input("your age: ")
+print("{name}, your age is {age}")
+print(type(age))
+
+age = int(age)		# typecast to int. input always give string
+print(type(age))
